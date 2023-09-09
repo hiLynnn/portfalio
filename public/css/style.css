@@ -2,7 +2,7 @@ body{
     color: white;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    background: black;
+    background: rgb(27, 26, 26);
     margin: unset;
     padding: unset;
 }
@@ -11,6 +11,9 @@ html, body {
 }
 .container{
     width: 100%;
+    max-width: 1260px;
+    min-width: 500px;
+    min-height: 500px;
     margin: 0px auto;
     display: block;
 }
@@ -20,6 +23,10 @@ html, body {
     overflow: hidden;
     border-radius: 20px;
     border: 1px solid white;
+    transition: 0.2s;
+}
+.img-warrper:hover{
+    box-shadow: 2px 4px 4px 2px rgb(236, 148, 148,0.3);
 }
 .banner{
     margin-right: 50px;
@@ -40,8 +47,33 @@ html, body {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    text-shadow: 1.5px 1.5px #415301;
+    text-shadow: 1.5px 1.5px #64665c;
     display: flex;
     justify-content: center;
+}
+.text-banner{
+    max-width: 500px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    background:rgb(243, 57, 57);
+    border: unset;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px auto;
+   
+    transition: 0.2s;
+}
+.btn:hover{
+    box-shadow: 2px 4px 4px 2px rgb(236, 148, 148,0.3);
+}
+.justify-center{
+    display: flex;
+    justify-content: center;
+}
+li{
+    margin-top: 5px;
 }
 
