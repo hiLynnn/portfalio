@@ -1,0 +1,47 @@
+body{
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    margin: unset;
+    padding: unset;
+}
+html, body {
+    margin: 0;
+}
+.container{
+    width: 100%;
+    margin: 0px auto;
+    display: block;
+}
+.img-warrper{
+    width: 400px;
+    height: 530px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.banner{
+    margin-right: 50px;
+}
+.header{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+}
+.b-1{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.b-2{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1.5px 1.5px #415301;
+    display: flex;
+    justify-content: center;
+}
+
